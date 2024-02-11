@@ -1,0 +1,87 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Setting up dark background */
+  body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styling the wrapper */
+  .wrapper {
+    margin: 50px auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+  }
+  
+  /* Styling the navigation bar */
+  nav {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #666;
+  }
+  
+  /* Styling the main content */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  /* Styling the form */
+  .form {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .guessField {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #666;
+  }
+  
+  .guessSubmit {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px; /* Add margin to separate from input */
+  }
+  
+  /* Styling the result paragraphs */
+  .resultParas {
+    margin-top: 20px;
+  }
+  
+  .resultParas p {
+    margin-bottom: 5px;
+  }
+  
+  /* Styling the loworhi paragraph */
+  .loworhi {
+    font-weight: bold;
+  }
+  
